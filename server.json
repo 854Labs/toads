@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.toads/toads",
+  "title": "Toads",
+  "description": "Edit screen recordings in Toads on your Mac: tidy up, captions, titles, zooms and export.",
+  "repository": {
+    "url": "https://github.com/854Labs/toads",
+    "source": "github"
+  },
+  "version": "4.0.0",
+  "websiteUrl": "https://toads.io/mcp",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/854Labs/toads/main/assets/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/854Labs/toads/releases/download/v4.0.0/Toads.mcpb",
+      "fileSha256": "27b24357cba7ec176b69918cecb4b59873e0562006a2559017eec164bdb41712",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}

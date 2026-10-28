@@ -1,0 +1,11 @@
+{
+  "name": "toads",
+  "version": "4.0.0",
+  "description": "Edit your screen recordings in Toads on your Mac: tidy up, cut by transcript, add captions, titles and zooms, and export.",
+  "mcpServers": {
+    "toads": {
+      "command": "/Applications/Toads.app/Contents/MacOS/toads-mcp",
+      "args": []
+    }
+  }
+}
